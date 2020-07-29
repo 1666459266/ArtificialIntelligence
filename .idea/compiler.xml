@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="8002-user-provider" />
+        <module name="8302-website-provider" />
+        <module name="8403-article-provider" />
+        <module name="8501-link-provider" />
+        <module name="8203-special-provider" />
+        <module name="8301-website-provider" />
+        <module name="8402-article-provider" />
+        <module name="8101-column-provider" />
+        <module name="9701-gateway" />
+        <module name="9702-gateway" />
+        <module name="9703-gateway" />
+        <module name="8202-special-provider" />
+        <module name="8303-website-provider" />
+        <module name="8001-user-provider" />
+        <module name="8502-link-provider" />
+        <module name="9601-authentication-authorization" />
+        <module name="8003-user-provider" />
+        <module name="8503-link-provider" />
+        <module name="8401-article-provider" />
+        <module name="8102-column-provider" />
+        <module name="8103-column-provider" />
+        <module name="8201-special-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="9001-user-customer" target="1.8" />
+      <module name="9101-column-customer" target="1.8" />
+      <module name="9201-special-customer" target="1.8" />
+      <module name="9301-website-customer" target="1.8" />
+      <module name="9401-article-customer" target="1.8" />
+      <module name="9501-link-customer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="8001-user-provider" options="" />
+      <module name="8002-user-provider" options="" />
+      <module name="8003-user-provider" options="" />
+      <module name="8101-column-provider" options="" />
+      <module name="8102-column-provider" options="" />
+      <module name="8103-column-provider" options="" />
+      <module name="8201-special-provider" options="" />
+      <module name="8202-special-provider" options="" />
+      <module name="8203-special-provider" options="" />
+      <module name="8301-website-provider" options="" />
+      <module name="8302-website-provider" options="" />
+      <module name="8303-website-provider" options="" />
+      <module name="8401-article-provider" options="" />
+      <module name="8402-article-provider" options="" />
+      <module name="8403-article-provider" options="" />
+      <module name="8501-link-provider" options="" />
+      <module name="8502-link-provider" options="" />
+      <module name="8503-link-provider" options="" />
+      <module name="9001-user-customer" options="" />
+      <module name="9101-column-customer" options="" />
+      <module name="9201-special-customer" options="" />
+      <module name="9301-website-customer" options="" />
+      <module name="9401-article-customer" options="" />
+      <module name="9501-link-customer" options="" />
+      <module name="9601-authentication-authorization" options="" />
+      <module name="9701-gateway" options="" />
+      <module name="9702-gateway" options="" />
+      <module name="9703-gateway" options="" />
+      <module name="ArtificialIntelligence" options="" />
+    </option>
+  </component>
+</project>

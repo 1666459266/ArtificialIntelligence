@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: authentication-authorization
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #Nacos服务注册中心地址
+        namespace: f331a483-3c21-4b77-88b0-d810102a5368 #指定注册中心命名空间
+      config:
+        server-addr: localhost:8848 #Nacos服务配置中心地址
+        file-extension: yaml #指定yaml格式的配置
+        group: DEV_GROUP #指定分组
+        namespace: f331a483-3c21-4b77-88b0-d810102a5368 #指定配置中心命名空间

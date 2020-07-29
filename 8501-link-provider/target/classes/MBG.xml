@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+
+	<context id="DB2Tables" targetRuntime="MyBatis3">
+		<commentGenerator>
+			<!--是否去除自动生成的注释 true：是 ： false:否 -->
+			<property name="suppressAllComments" value="true" />
+		</commentGenerator>
+		<!-- 配置数据库连接 -->
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://localhost:3306/zptc?characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=UTC&amp;rewriteBatchedStatements=true"
+			userId="root"
+			password="123456">
+			<!--修复逆向生成实体类字段不全的问题-->
+			<property name="nullCatalogMeansCurrent" value="true"/>
+		</jdbcConnection>
+
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+
+		<!-- 指定javaBean生成的位置 -->
+		<javaModelGenerator targetPackage="cn.zptc.ai.entity"
+			targetProject="D:\IntelliJ IDEA 2019.3\Intellij IDEA\Project\ArtificialIntelligence\8501-link-provider\src\main\java">
+			<property name="enableSubPackages" value="true" />
+			<property name="trimStrings" value="true" />
+		</javaModelGenerator>
+
+		<!--指定sql映射文件生成的位置 -->
+		<sqlMapGenerator targetPackage="mapper"
+			targetProject="D:\IntelliJ IDEA 2019.3\Intellij IDEA\Project\ArtificialIntelligence\8501-link-provider\src\main\resources">
+			<property name="enableSubPackages" value="true" />
+		</sqlMapGenerator>
+
+		<!-- 指定dao接口生成的位置，mapper接口 -->
+		<javaClientGenerator type="XMLMAPPER" targetPackage="cn.zptc.ai.dao"
+			targetProject="D:\IntelliJ IDEA 2019.3\Intellij IDEA\Project\ArtificialIntelligence\8501-link-provider\src\main\java">
+			<property name="enableSubPackages" value="true" />
+		</javaClientGenerator>
+
+		<!-- table指定每个表的生成策略 -->
+		<table tableName="link" domainObjectName="Link" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"/>
+	</context>
+
+</generatorConfiguration>

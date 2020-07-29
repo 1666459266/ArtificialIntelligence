@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="017c840a-ab1f-451b-97e4-358f94d745a1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\.m2\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dZfjIEmbd5uPG5ooLChERqSsJI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Spring Security/security-springcloud-jwt" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.zptc.ai.controller" />
+      <recent name="cn.zptc.ai.service.serviceimpl" />
+      <recent name="cn.zptc.ai.service" />
+      <recent name="cn.zptc.ai.dao" />
+      <recent name="cn.zptc.ai.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEA 2019.3\Intellij IDEA\Project\ArtificialIntelligence\8003-user-provider\src\main\java\cn\zptc\ai\controller" />
+      <recent name="D:\IntelliJ IDEA 2019.3\Intellij IDEA\Project\ArtificialIntelligence\8002-user-provider\src\main\java\cn\zptc\ai\controller" />
+      <recent name="D:\IntelliJ IDEA 2019.3\Intellij IDEA\Project\ArtificialIntelligence\8503-link-provider\src\main\resources\mapper" />
+      <recent name="D:\IntelliJ IDEA 2019.3\Intellij IDEA\Project\ArtificialIntelligence\8502-link-provider\src\main\resources\mapper" />
+      <recent name="D:\IntelliJ IDEA 2019.3\Intellij IDEA\Project\ArtificialIntelligence\8403-article-provider\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AuthenticationAuthorizationApplication9601">
+    <configuration name="ArticleProviderApplication8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8401-article-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.ArticleProviderApplication8401" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleProviderApplication8402" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8402-article-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.ArticleProviderApplication8402" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleProviderApplication8403" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8403-article-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.ArticleProviderApplication8403" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthenticationAuthorizationApplication9601" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="9601-authentication-authorization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.AuthenticationAuthorizationApplication9601" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColumnProviderApplication8101" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8101-column-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.ColumnProviderApplication8101" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColumnProviderApplication8102" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8102-column-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.ColumnProviderApplication8102" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColumnProviderApplication8103" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8103-column-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.ColumnProviderApplication8103" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication9701" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="9701-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.GatewayApplication9701" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication9702" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="9702-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.GatewayApplication9702" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication9703" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="9703-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.GatewayApplication9703" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkProviderApplication8501" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8501-link-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.LinkProviderApplication8501" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkProviderApplication8502" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8502-link-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.LinkProviderApplication8502" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkProviderApplication8503" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8503-link-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.LinkProviderApplication8503" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecialProviderApplication8201" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8201-special-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.SpecialProviderApplication8201" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecialProviderApplication8202" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8202-special-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.SpecialProviderApplication8202" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecialProviderApplication8203" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8203-special-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.SpecialProviderApplication8203" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProviderApplication8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8001-user-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.UserProviderApplication8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProviderApplication8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8002-user-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.UserProviderApplication8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProviderApplication8003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8003-user-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.UserProviderApplication8003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebsiteProviderApplication8301" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8301-website-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.WebsiteProviderApplication8301" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebsiteProviderApplication8302" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8302-website-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.WebsiteProviderApplication8302" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebsiteProviderApplication8303" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="8303-website-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zptc.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zptc.ai.WebsiteProviderApplication8303" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AuthenticationAuthorizationApplication9601" />
+      <item itemvalue="Spring Boot.GatewayApplication9701" />
+      <item itemvalue="Spring Boot.GatewayApplication9702" />
+      <item itemvalue="Spring Boot.GatewayApplication9703" />
+      <item itemvalue="Spring Boot.UserProviderApplication8001" />
+      <item itemvalue="Spring Boot.UserProviderApplication8002" />
+      <item itemvalue="Spring Boot.UserProviderApplication8003" />
+      <item itemvalue="Spring Boot.ColumnProviderApplication8101" />
+      <item itemvalue="Spring Boot.ColumnProviderApplication8102" />
+      <item itemvalue="Spring Boot.ColumnProviderApplication8103" />
+      <item itemvalue="Spring Boot.SpecialProviderApplication8201" />
+      <item itemvalue="Spring Boot.SpecialProviderApplication8202" />
+      <item itemvalue="Spring Boot.SpecialProviderApplication8203" />
+      <item itemvalue="Spring Boot.WebsiteProviderApplication8301" />
+      <item itemvalue="Spring Boot.WebsiteProviderApplication8302" />
+      <item itemvalue="Spring Boot.WebsiteProviderApplication8303" />
+      <item itemvalue="Spring Boot.ArticleProviderApplication8401" />
+      <item itemvalue="Spring Boot.ArticleProviderApplication8402" />
+      <item itemvalue="Spring Boot.ArticleProviderApplication8403" />
+      <item itemvalue="Spring Boot.LinkProviderApplication8501" />
+      <item itemvalue="Spring Boot.LinkProviderApplication8502" />
+      <item itemvalue="Spring Boot.LinkProviderApplication8503" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.28138527" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="017c840a-ab1f-451b-97e4-358f94d745a1" name="Default Changelist" comment="" />
+      <created>1592637672186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592637672186</updated>
+      <workItem from="1592637679367" duration="102000" />
+      <workItem from="1592637794851" duration="979000" />
+      <workItem from="1592638778844" duration="3233000" />
+      <workItem from="1592642052548" duration="1238000" />
+      <workItem from="1592643293460" duration="86000" />
+      <workItem from="1592643381614" duration="16000" />
+      <workItem from="1592643426143" duration="954000" />
+      <workItem from="1592659574507" duration="316000" />
+      <workItem from="1592659907651" duration="1961000" />
+      <workItem from="1592661972071" duration="844000" />
+      <workItem from="1592662821904" duration="3041000" />
+      <workItem from="1592665867314" duration="299000" />
+      <workItem from="1592666176742" duration="123000" />
+      <workItem from="1592706589462" duration="311000" />
+      <workItem from="1592706904538" duration="18000" />
+      <workItem from="1592706924793" duration="1077000" />
+      <workItem from="1592708006400" duration="429000" />
+      <workItem from="1592708437899" duration="214000" />
+      <workItem from="1592714398924" duration="2362000" />
+      <workItem from="1592722812228" duration="2608000" />
+      <workItem from="1592725425923" duration="1269000" />
+      <workItem from="1592733965177" duration="2504000" />
+      <workItem from="1592742573155" duration="3108000" />
+      <workItem from="1592747309338" duration="409000" />
+      <workItem from="1592800025759" duration="11013000" />
+      <workItem from="1592874814321" duration="14394000" />
+      <workItem from="1592904448884" duration="67000" />
+      <workItem from="1592904534866" duration="1420000" />
+      <workItem from="1592905969292" duration="736000" />
+      <workItem from="1592906736559" duration="110000" />
+      <workItem from="1592906885222" duration="5046000" />
+      <workItem from="1592912007195" duration="330000" />
+      <workItem from="1592912582991" duration="253000" />
+      <workItem from="1592960375231" duration="1577000" />
+      <workItem from="1592961969192" duration="149000" />
+      <workItem from="1592962303475" duration="1204000" />
+      <workItem from="1592964372138" duration="2737000" />
+      <workItem from="1592970016963" duration="6087000" />
+      <workItem from="1592976290545" duration="2459000" />
+      <workItem from="1592978759004" duration="8164000" />
+      <workItem from="1592986937181" duration="2109000" />
+      <workItem from="1592999633724" duration="70000" />
+      <workItem from="1593306118534" duration="110000" />
+      <workItem from="1593306242321" duration="9114000" />
+      <workItem from="1593317665831" duration="4825000" />
+      <workItem from="1593322498734" duration="7319000" />
+      <workItem from="1593329875949" duration="2779000" />
+      <workItem from="1593332659474" duration="641000" />
+      <workItem from="1593333826726" duration="64000" />
+      <workItem from="1593333893005" duration="16000" />
+      <workItem from="1593333915854" duration="69000" />
+      <workItem from="1593392736391" duration="555000" />
+      <workItem from="1593408337670" duration="16000" />
+      <workItem from="1593418745223" duration="414000" />
+      <workItem from="1593480084817" duration="1626000" />
+      <workItem from="1593483859116" duration="419000" />
+      <workItem from="1593484394244" duration="625000" />
+      <workItem from="1593489961094" duration="1614000" />
+      <workItem from="1593501709896" duration="29000" />
+      <workItem from="1594345539411" duration="1457000" />
+      <workItem from="1594356097333" duration="74000" />
+      <workItem from="1594358429620" duration="175000" />
+      <workItem from="1594362951722" duration="559000" />
+      <workItem from="1594624412555" duration="598000" />
+      <workItem from="1594871949989" duration="295000" />
+      <workItem from="1595400390729" duration="48000" />
+      <workItem from="1595400467743" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1593480331911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1593480331911" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593481718546">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593481718546" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1593327195566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593327195566" />
+    <state x="472" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592904928904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="472" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592904928904" />
+    <state x="642" y="378" width="636" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592911471602">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="642" y="378" width="636" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1592911471602" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592789574410">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592789574410" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1593484418821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593484418821" />
+    <state width="1327" height="283" key="GridCell.Tab.0.bottom" timestamp="1593491576190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1327" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593491576190" />
+    <state width="1327" height="283" key="GridCell.Tab.0.center" timestamp="1593491576190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1327" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593491576190" />
+    <state width="1327" height="283" key="GridCell.Tab.0.left" timestamp="1593491576190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1327" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593491576190" />
+    <state width="1327" height="283" key="GridCell.Tab.0.right" timestamp="1593491576190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1327" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593491576190" />
+    <state width="1327" height="283" key="GridCell.Tab.1.bottom" timestamp="1593491576190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1327" height="283" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593491576190" />
+    <state width="1327" height="283" key="GridCell.Tab.1.center" timestamp="1593491576190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1327" height="283" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593491576190" />
+    <state width="1327" height="283" key="GridCell.Tab.1.left" timestamp="1593491576190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1327" height="283" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593491576190" />
+    <state width="1327" height="283" key="GridCell.Tab.1.right" timestamp="1593491576190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1327" height="283" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593491576190" />
+    <state width="1327" height="283" key="GridCell.Tab.2.bottom" timestamp="1593491576191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1327" height="283" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593491576191" />
+    <state width="1327" height="283" key="GridCell.Tab.2.center" timestamp="1593491576190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1327" height="283" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593491576190" />
+    <state width="1327" height="283" key="GridCell.Tab.2.left" timestamp="1593491576190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1327" height="283" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593491576190" />
+    <state width="1327" height="283" key="GridCell.Tab.2.right" timestamp="1593491576190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1327" height="283" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593491576190" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1592978751286">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592978751286" />
+    <state x="511" y="256" width="897" height="606" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592989042573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="511" y="256" width="897" height="606" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1592989042573" />
+    <state x="636" y="258" width="647" height="524" key="find.popup" timestamp="1592801225310">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="258" width="647" height="524" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592801225310" />
+    <state x="686" y="365" key="git4idea.ui.GitTagDialog" timestamp="1592801278931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="686" y="365" key="git4idea.ui.GitTagDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592801278931" />
+    <state x="334" y="215" key="new project wizard" timestamp="1592708467018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592708467018" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592807424277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592807424277" />
+  </component>
+</project>

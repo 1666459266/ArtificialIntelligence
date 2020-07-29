@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.zptc.ai.dao.RolePermissionMapper">
+  <resultMap id="BaseResultMap" type="cn.zptc.ai.entity.RolePermission">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="role_id" jdbcType="INTEGER" property="roleId" />
+    <result column="role_name" jdbcType="VARCHAR" property="roleName" />
+    <result column="permission_id" jdbcType="INTEGER" property="permissionId" />
+    <result column="permission_name" jdbcType="VARCHAR" property="permissionName" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, role_id, role_name, permission_id, permission_name
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from role_permission
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from role_permission
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.zptc.ai.entity.RolePermission" useGeneratedKeys="true" keyProperty="id">
+    insert into role_permission (id, role_id, role_name, 
+      permission_id, permission_name)
+    values (#{id,jdbcType=INTEGER}, #{roleId,jdbcType=INTEGER}, #{roleName,jdbcType=VARCHAR}, 
+      #{permissionId,jdbcType=INTEGER}, #{permissionName,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="cn.zptc.ai.entity.RolePermission" useGeneratedKeys="true" keyProperty="id">
+    insert into role_permission
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="roleId != null">
+        role_id,
+      </if>
+      <if test="roleName != null">
+        role_name,
+      </if>
+      <if test="permissionId != null">
+        permission_id,
+      </if>
+      <if test="permissionName != null">
+        permission_name,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="roleId != null">
+        #{roleId,jdbcType=INTEGER},
+      </if>
+      <if test="roleName != null">
+        #{roleName,jdbcType=VARCHAR},
+      </if>
+      <if test="permissionId != null">
+        #{permissionId,jdbcType=INTEGER},
+      </if>
+      <if test="permissionName != null">
+        #{permissionName,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.zptc.ai.entity.RolePermission" useGeneratedKeys="true" keyProperty="id">
+    update role_permission
+    <set>
+      <if test="roleId != null">
+        role_id = #{roleId,jdbcType=INTEGER},
+      </if>
+      <if test="roleName != null">
+        role_name = #{roleName,jdbcType=VARCHAR},
+      </if>
+      <if test="permissionId != null">
+        permission_id = #{permissionId,jdbcType=INTEGER},
+      </if>
+      <if test="permissionName != null">
+        permission_name = #{permissionName,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.zptc.ai.entity.RolePermission" useGeneratedKeys="true" keyProperty="id">
+    update role_permission
+    set role_id = #{roleId,jdbcType=INTEGER},
+      role_name = #{roleName,jdbcType=VARCHAR},
+      permission_id = #{permissionId,jdbcType=INTEGER},
+      permission_name = #{permissionName,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="selectRolePermissionList" resultType="map" parameterType="java.lang.Integer">
+    SELECT
+    <include refid="Base_Column_List"></include>
+    FROM role_permission
+    LIMIT #{page,jdbcType=INTEGER},#{limit,jdbcType=INTEGER}
+  </select>
+</mapper>

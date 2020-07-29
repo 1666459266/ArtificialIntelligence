@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>cn.zptc.ai</groupId>
+  <artifactId>ArtificialIntelligence</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>8001-user-provider</module>
+    <module>8002-user-provider</module>
+    <module>8003-user-provider</module>
+    <module>8101-column-provider</module>
+    <module>8102-column-provider</module>
+    <module>8103-column-provider</module>
+    <module>8201-special-provider</module>
+    <module>8202-special-provider</module>
+    <module>8203-special-provider</module>
+    <module>8301-website-provider</module>
+    <module>8302-website-provider</module>
+    <module>8303-website-provider</module>
+    <module>8401-article-provider</module>
+    <module>8402-article-provider</module>
+    <module>8403-article-provider</module>
+    <module>8501-link-provider</module>
+    <module>8502-link-provider</module>
+    <module>8503-link-provider</module>
+    <module>9601-authentication-authorization</module>
+    <module>9701-gateway</module>
+    <module>9702-gateway</module>
+    <module>9703-gateway</module>
+  </modules>
+
+  <!--统一jar包管理-->
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <lombok.version>1.16.18</lombok.version>
+    <mysql.version>5.1.47</mysql.version>
+    <mybatis.spring.boot.version>2.1.1</mybatis.spring.boot.version>
+    <druid.spring.boot.starter>1.1.10</druid.spring.boot.starter>
+    <mybatis.generator.version>1.3.5</mybatis.generator.version>
+    <fastjson.version>1.2.31</fastjson.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <!--spring boot 2.2.2-->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <version>2.2.2.RELEASE</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <!--spring cloud Hoxton.SR1-->
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>Hoxton.SR1</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <!--spring cloud alibaba 2.1.0.RELEASE-->
+      <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+        <version>2.1.0.RELEASE</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <!--spring-security-->
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-jwt</artifactId>
+        <version>1.0.10.RELEASE</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.security.oauth.boot</groupId>
+        <artifactId>spring-security-oauth2-autoconfigure</artifactId>
+        <version>2.1.3.RELEASE</version>
+      </dependency>
+      <!--MySQL连接-->
+      <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>${mysql.version}</version>
+      </dependency>
+      <!--Mybatis场景启动器-->
+      <dependency>
+        <groupId>org.mybatis.spring.boot</groupId>
+        <artifactId>mybatis-spring-boot-starter</artifactId>
+        <version>${mybatis.spring.boot.version}</version>
+      </dependency>
+      <!--druid数据源场景启动器-->
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>druid-spring-boot-starter</artifactId>
+        <version>${druid.spring.boot.starter}</version>
+      </dependency>
+      <!--lombok-->
+      <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>${lombok.version}</version>
+        <optional>true</optional>
+      </dependency>
+      <!--Mybatis逆向生成工具-->
+      <dependency>
+        <groupId>org.mybatis.generator</groupId>
+        <artifactId>mybatis-generator-core</artifactId>
+        <version>${mybatis.generator.version}</version>
+      </dependency>
+      <!--fastjson-->
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>${fastjson.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+</project>
